@@ -1,0 +1,19 @@
+.listItems {
+    width: 500px;
+    padding: 25px;
+    border-radius: 7px;
+    box-shadow: 0 0 5px;
+}
+
+.item {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    cursor: grab;
+}
+
+.item .itemContent span {
+    font-size: 20px;
+}
