@@ -17,9 +17,7 @@ const initSortableList = (e) => {
 
     let nextSibling = siblings.find(sibling => {
         return e.clientY <= sibling.offsetTop + sibling.offsetHeight / 2;
-
     });
-
     listItemsEl.insertBefore(draggingItem, nextSibling);
 }
 
